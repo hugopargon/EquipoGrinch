@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 segundo222a
+=======
+segundo222aa
+sadfafdasf
+>>>>>>> a7dd08a0a6f40fe83892009333aa8652e570de72
