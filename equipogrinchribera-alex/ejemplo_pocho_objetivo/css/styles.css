@@ -1,31 +1,31 @@
-body{
+body {
     font-family: Montserrat, sans-serif;
 }
 
-h1{
+h1 {
     font-family: Merriweather, serif;
 }
 
-.text-bg-primary{
+.text-bg-primary {
     background-color: #00e676 !important;
     color: black !important;
 }
 
-.text-bg-primary.dark{
+.text-bg-primary.dark {
     background-color: #00b248 !important;
 }
 
-.card-tit{
+.card-tit {
     font-size: 3rem;
     text-align: center;
 }
 
-.accordion{
+.accordion {
     /* background-color: #00e676 !important; */
     color: black !important;
 }
 
-.accordion-item{
+.accordion-item {
     border-color: black;
     border-width: 0.2rem;
     background-color: white !important;
@@ -33,12 +33,18 @@ h1{
     margin-bottom: 1rem;
 }
 
-article > p{
+article>p {
     text-align: justify;
     text-indent: 1rem;
 }
 
-.card:hover{
+.card:hover {
     background-color: #005b4f !important;
-    color: white !important; 
+    color: white !important;
+}
+
+.probando {
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
