@@ -1,50 +1,128 @@
-body {
-    font-family: Montserrat, sans-serif;
+:root{
+    --primary: #00e676;
+    --primary-light: #66ffa6;
+    --primary-dark: #00b248;
+    
+    --secondary: #00897b;
+    --secondary-light: #4ebaaa;
+    --secondary-dark: #005b4f;
+
+    --primary-trans-75: rgba(0, 178, 72, 0.75);
+    --primary-trans-35: rgba(0, 178, 72, 0.35);
 }
 
+body {
+    margin: 0.8rem, 0rem;
+    font-family: Montserrat, sans-serif;
+    position: relative;
+    background-image: url('./../img/textura_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
 h1 {
-    font-family: Merriweather, serif;
+    font-size: 3.5rem !important;
+    font-family: Merriweather, serif !important;
+}
+
+h2 {
+    font-size: 3rem !important;
+    font-family: Merriweather, serif !important;
 }
 
 .text-bg-primary {
-    background-color: #00e676 !important;
+    background-color: var(--primary) !important;
     color: black !important;
 }
 
 .text-bg-primary.dark {
-    background-color: #00b248 !important;
+    background-color: var(--primary-dark) !important;
+}
+
+.prim-bg-op-35 {
+    background-color: rgba(0, 178, 72, 0.35) !important;
+}
+
+.prim-bg-op-35 > p {
+    font-size: 2rem;
+}
+
+.prim-bg-op-75 {
+    background-color: rgba(0, 178, 72, 0.75) !important;
+}
+
+.card p {
+    font-size: 1.2rem;
+}
+
+/* .bor-prim {
+    border-color: var(--secondary) !important;
+} */
+
+.btn.dropdown-toggle:hover{
+    background-color: var(--secondary-dark) !important;
+    color: white !important;
 }
 
 .card-tit {
-    font-size: 3rem;
+    font-size: 4rem;
+    text-align: center;
+    font-family: Merriweather, serif !important;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card-text{
+    font-size: 1.2rem;
     text-align: center;
 }
 
-.accordion {
-    /* background-color: #00e676 !important; */
-    color: black !important;
+.accordion{
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: var(--primary-light);
+    --bs-accordion-btn-focus-border-color: var(--secondary-dark);
+    --bs-accordion-color: #212529;
+    --bs-accordion-bg: #fff;
 }
 
 .accordion-item {
-    border-color: black;
+    border-color: var(--primary);
     border-width: 0.2rem;
-    background-color: white !important;
-    color: black !important;
-    margin-bottom: 1rem;
+    /* background-color: white !important;
+    color: black !important; */
+}
+
+.accordion-button{
+    font-size: 1.5rem;
+    font-family: Montserrat;
 }
 
 article>p {
     text-align: justify;
-    text-indent: 1rem;
+    font-size: 1.2rem;
+    text-indent: 2rem;
+}
+
+article h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #edf1ed;
 }
 
 .card:hover {
-    background-color: #005b4f !important;
-    color: white !important;
+    background-color: var(--primary-light) !important;
+    /* color: white !important; */
 }
 
-.probando {
+.bg-header {
     height: 40rem;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
