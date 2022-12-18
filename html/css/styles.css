@@ -122,7 +122,14 @@ article h3 {
 }
 
 .bg-header {
-    height: 40rem;
+    height: 50rem;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.bg-header-mov {
+    /* height: 40rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
 }

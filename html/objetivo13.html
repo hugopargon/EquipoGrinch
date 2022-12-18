@@ -5,16 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../../css/bootstrap.css">
-    <link rel="stylesheet" href="./../../css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -59,15 +50,30 @@
 
         </nav>
     </header>
+    
+    
     <!-- Hay q cambiar la imgane y los textos aqui -->
     <div class="d-none d-sm-none d-md-block bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white bg-header"
-        style="background-repeat: no-repeat;
-        background-size: cover;background-image: url('../img/clima.jpg') ;">
+        style="background-image: url('../img/clima.jpg') ;">
 
 
-        <div class="text-bg-primary dark opacity-75">
+        <div class="container prim-bg-op-35 py-2">
 
-            <h1 class="mb-3 h2 ">OBJETIVO 13</h1>
+            <h1 class="mb-3 h2">OBJETIVO 13</h1>
+
+            <p>
+                Acción por el Clima
+            </p>
+        </div>
+    </div>
+
+    <div class="d-block d-sm-block d-md-none bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white bg-header-mov"
+        style="background-image: url('../img/clima.jpg') ;">
+
+
+        <div class="prim-bg-op-35 py-2">
+
+            <h1 class="mb-3 h2">OBJETIVO 13</h1>
 
             <p>
                 Acción por el Clima
@@ -102,18 +108,18 @@
                     </article>
                     <article>
                         <h3 class="pb-4">¿Qué hemos conseguido hasta ahora?</h2>
-                            <ul>
-                                <li>A abril de 2018, 175 Partes habían ratificado el Acuerdo de París y 168 Partes
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-success">A abril de 2018, 175 Partes habían ratificado el Acuerdo de París y 168 Partes
                                     habían comunicado sus primeras contribuciones determinadas a nivel nacional a la
                                     Convención Marco de las Naciones Unidas sobre la Secretaría del Cambio Climático.
                                 </li>
-                                <li>A partir de abril de 2018, 10 países en desarrollo completaron y presentaron con
+                                <li class="list-group-item list-group-item-success">A partir de abril de 2018, 10 países en desarrollo completaron y presentaron con
                                     éxito la primera versión de sus planes nacionales de adaptación para responder al
                                     cambio climático.</li>
-                                <li>Los países desarrollados continúan avanzando hacia el objetivo de movilizar
+                                <li class="list-group-item list-group-item-success">Los países desarrollados continúan avanzando hacia el objetivo de movilizar
                                     conjuntamente $ 100 mil millones anuales para el 2020 para acciones de mitigación.
                                 </li>
-                                <li>No obstante, las previsiones sobre cambio climático no son positivas. En la mayoría
+                                <li class="list-group-item list-group-item-success">No obstante, las previsiones sobre cambio climático no son positivas. En la mayoría
                                     de casos los acuerdos son insuficientes o simplemente no se cumplen.</li>
                             </ul>
                     </article>
@@ -344,13 +350,11 @@
             </div>
     </footer>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 </body>
-<!-- <script>  document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.dropdown-trigger');
-        var instances = M.Dropdown.init(elems, options);
-    });</script> -->
-<script>$('.dropdown-trigger').dropdown();</script>
 
 </html>
